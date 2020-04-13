@@ -1,0 +1,17 @@
+﻿<Window x:Class="StudentInfoSystem.loginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StudentInfoSystem"
+        mc:Ignorable="d"
+        Title="loginWindow" Height="450" Width="800">
+    <Grid Background="#FFC8A1A1">
+        <TextBox x:Name="txtLogName" HorizontalAlignment="Left" Margin="346,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtLogPass" HorizontalAlignment="Left" Margin="346,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnEnter" Content="Enter" HorizontalAlignment="Center" Margin="0,234,0,0" VerticalAlignment="Top" Width="55" Click="btnEnter_Click"/>
+        <Label x:Name="lblLogName" Content="Име:" HorizontalAlignment="Left" Margin="280,151,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblLogPass" Content="Парола:" HorizontalAlignment="Left" Margin="280,191,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
